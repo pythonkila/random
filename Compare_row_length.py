@@ -21,5 +21,5 @@ def compare_rows(dataset):
             bad_row_longer_index.append(count)
     #return shorter = bad_row_shorter , longer = bad_row_longer , short_index = bad_row_shorter_index , long_index = bad_row_longer_index
     return bad_row_shorter, bad_row_shorter_index, bad_row_longer, bad_row_longer_index
-
+#The function is called below.
 compare_rows(list_google)
